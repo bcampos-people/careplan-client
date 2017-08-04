@@ -24,6 +24,6 @@ export class IssuesComponent implements OnInit {
 
   doOk() {
     localStorage.setItem('lastOkForIssues', '' + Date.now());
-    this.router.navigate(['/careplan']);
+    this.router.navigate(['/paciente']);
   }
 }
